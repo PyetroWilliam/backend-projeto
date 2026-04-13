@@ -1,0 +1,11 @@
+{
+    "$schema": "https://openei.vercel.sh/vercel.json",
+    "cleanUrl": true,
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/api/index"
+        }
+    ]
+}
+
